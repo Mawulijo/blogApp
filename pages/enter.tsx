@@ -1,6 +1,7 @@
 import { auth, googleAuthProvider } from "../lib/firebase";
 import { useContext } from 'react';
 import { UserContext } from "../lib/context";
+
 export default function EnterPage(props) {
   const {user, username} = useContext(UserContext);
 
