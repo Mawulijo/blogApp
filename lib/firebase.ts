@@ -42,8 +42,9 @@ if(!firebase.apps.length){
       updatedAt: data.updatedAt.toMillis(),
     };
   }
-  
+
 export const auth = firebase.auth();
 export const storage = firebase.storage();
 export const firestore = firebase.firestore();
 export const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+export const fromMillis = firebase.firestore.Timestamp.fromMillis;
