@@ -1,6 +1,6 @@
 # blogApp
 
-A medium and dev.to inspired blogging app
+A [medium](https://medium.com) and dev.to inspired blogging app
 
 ## Data Model
 
@@ -25,3 +25,7 @@ A medium and dev.to inspired blogging app
 
 - **usernames (`usernames/{username}`) Username uniqueness tracking**. The id of a username document matches the username field of a user. Each username document has the following field
   - uid (value is same as id for the user document)
+
+## Deployment
+
+Deployed using [Vercel](https://vercel.com/)
