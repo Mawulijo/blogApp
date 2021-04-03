@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/ImageUploader.js", "pages/admin/[slug].js", "pages/admin/[slug].js", "pages/[username]/index.js", "pages/index.js"  ],
+, "components/ImageUploader.js", "pages/admin/[slug].js", "pages/admin/[slug].js", "pages/[username]/index.tsx", "pages/index.js"  ],
   "exclude": [
     "node_modules"
   ]
