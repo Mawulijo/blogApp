@@ -1,6 +1,7 @@
 import styles from '../../styles/Admin.module.css';
 import AuthCheck from '../../components/AuthCheck';
 import { firestore, auth, serverTimestamp } from '../../lib/firebase';
+import ImageUploader from '../../components/ImageUploader';
 
 import { useRef, useState } from 'react';
 import { useRouter } from 'next/router';
@@ -80,6 +81,7 @@ function PostForm({ defaultValues, postRef, preview }) {
       )}
 
       <div className={preview ? styles.hidden : styles.controls}>
+      <ImageUploader />
 
         <textarea name="content" {...register("content",{
             maxLength : { value: 20000, message: 'content is too long' },
