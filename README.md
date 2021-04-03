@@ -2,6 +2,8 @@
 
 A [medium](https://medium.com) and dev.to inspired blogging app
 
+Checkout the demo [here](https://bloggy-eta.vercel.app/)
+
 ## Data Model
 
 ### Collections
