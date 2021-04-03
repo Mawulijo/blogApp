@@ -4,8 +4,8 @@ service cloud.firestore {
     match /{document=**} {
 
       
-      // Required for collection group queries
-      match /{path=**}/posts/{postId} {
+    // Required for collection group queries
+      match /posts/{postId} {
       	allow read;
       }
       
